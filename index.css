@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    
+  }
+
+body {
+    background-color: #05010D;
+}
+
+/* Estilos para a barra de rolagem */
+
+::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #0E193A; 
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #091025; 
+  }
+  
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5rem; 
+    font-family: 'Alfa Slab One', sans-serif;
+}
+
+.info-center {
+    display: flex;
+    gap: 2rem;
+}
+
+.image-bg {
+    background-image: url(./assets/fundo.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding-bottom: 9rem;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 16rem;
+}
+
+
+.be-f1rst {
+    font-family: 'Bungee Inline';
+    font-size: 3.4rem;
+    background: linear-gradient(to right, white, #9BD0F5); 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    margin-bottom: -2rem;
+}
+
+.subtitulo{
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 1.8rem;
+    background: linear-gradient(to right, white, #9BD0F5); 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+.torne-seFirster {
+    color: #0E193A;
+    font-weight:560;
+    font-family: 'Inter';
+    margin: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.saiba-mais {
+    color: #595c68;
+    font-family: 'Inter';
+}
+
+.escolha{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-family: 'Inter';
+}
+
+.escolha-frase-cima, .escolha-frase-baixo {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.clube,
+.calendario-olimpico1 {
+  background:  linear-gradient(to bottom, #0D249F, #00031F); 
+}
