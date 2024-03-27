@@ -87,6 +87,10 @@ body {
     border-radius: 10px;
 }
 
+.torne-seFirster:hover{
+    background: #595c68;
+}
+
 .saiba-mais {
     color: #595c68;
     font-family: 'Inter';
@@ -110,5 +114,6 @@ body {
 
 .clube,
 .calendario-olimpico1 {
-  background:  linear-gradient(to bottom, #0D249F, #00031F); 
+  background:  linear-gradient(to bottom, #253385, #090e36); 
+  border-radius: 10px;
 }
