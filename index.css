@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -52,6 +53,11 @@ body {
     padding-bottom: 9rem;
 }
 
+.icones{
+    display: flex;
+    gap: 85px;
+}
+
 .banner {
     display: flex;
     align-items: center;
@@ -78,17 +84,27 @@ body {
     -webkit-text-fill-color: transparent; 
 }
 
-.torne-seFirster {
-    color: #0E193A;
-    font-weight:560;
-    font-family: 'Inter';
-    margin: 1.5rem;
-    padding: 0.5rem;
-    border-radius: 10px;
+.button-rigth {
+    color: #ffffff;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 560;
+    transition: 0.5s ease-in-out;
 }
 
-.torne-seFirster:hover{
-    background: #595c68;
+.torne-seFirster {
+    color: #ffffff;
+    font-weight: 560;
+    font-family: 'Inter', sans-serif;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    transition: 0.5s ease-in-out ;
+}
+
+.torne-seFirster:hover {
+    background-color: #ffffff8e;
+    color: #000000;
 }
 
 .saiba-mais {
