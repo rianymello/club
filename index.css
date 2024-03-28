@@ -105,6 +105,7 @@ body {
     padding: 0.5rem;
     text-align: center;
     transition: 0.5s ease-in-out ;
+    border: 1px solid #FFFF;
 }
 
 .torne-seFirster:hover {
@@ -149,4 +150,40 @@ body {
 .calendario-olimpico1 {
   background:  linear-gradient(to bottom, #253385, #090e36); 
   border-radius: 10px;
+}
+
+.conteiner-fundo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    padding: 10rem;
+    font-family: 'Inter';
+}
+
+.titulo-cont{
+    font-family: 'Inter';
+    color: #FFFF;
+    font-size: 1.2rem;
+}
+
+
+.secao-1 , .secao-2, .secao-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #4d517e23;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.icon-cont {
+    width: 2rem;
+    height: 2rem;
+}
+.texto-cont1 , .texto-cont2 , .texto-cont3{
+    font-family: 'Inter';
+    font-size: 1rem;
+    color: #ffffffad;
 }
