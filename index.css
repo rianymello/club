@@ -176,6 +176,19 @@ body {
     background-color: #4d517e23;
     padding: 2rem;
     border-radius: 1rem;
+    transition: transform 0.5s ease;
+}
+
+.secao-1:hover{
+transform: scale(1.1);
+}
+
+.secao-2:hover{
+ transform: scale(1.1);
+}
+
+.secao-3:hover{
+transform: scale(1.1);
 }
 
 .icon-cont {
