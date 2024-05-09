@@ -234,4 +234,7 @@ transform: scale(1.1);
  .titulo-clubes {
         border-bottom: 1px solid rgba(255, 255, 255, 0.678);
         padding-bottom: 1.5rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
